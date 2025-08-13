@@ -1,0 +1,21 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# Временные файлы
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+
+# Node modules (если понадобятся в будущем)
+node_modules/
+
+# Сборка
+dist/
+build/ 

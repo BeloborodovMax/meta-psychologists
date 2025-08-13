@@ -1,0 +1,26 @@
+{
+  "app_id": "123456",
+  "app_name": "Моё Мини-Приложение",
+  "app_description": "Описание вашего мини-приложения",
+  "app_version": "1.0.0",
+  "platform": "vk",
+  "permissions": [
+    "friends",
+    "photos",
+    "share"
+  ],
+  "features": {
+    "vk_bridge": true,
+    "responsive_design": true,
+    "modern_ui": true
+  },
+  "deployment": {
+    "hosting": "vk.com",
+    "cdn": "vk.com",
+    "ssl": true
+  },
+  "development": {
+    "local_testing": true,
+    "vk_dev_mode": true
+  }
+} 
