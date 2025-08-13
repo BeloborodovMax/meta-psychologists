@@ -1,1 +1,15 @@
- 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple VK Test</title>
+</head>
+<body>
+    <h1>МЕТА работает в VK!</h1>
+    <p>Если вы видите этот текст, значит iframe загрузился успешно.</p>
+    <p>Время загрузки: <span id="time"></span></p>
+    <script>
+        document.getElementById("time").textContent = new Date().toLocaleTimeString();
+    </script>
+</body>
+</html>
