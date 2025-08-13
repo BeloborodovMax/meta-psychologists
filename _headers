@@ -1,1 +1,7 @@
- 
+/*
+  X-Frame-Options: ALLOWALL
+  Content-Security-Policy: frame-ancestors * "self" https://vk.com https://*.vk.com https://m.vk.com
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, POST, OPTIONS
+  Access-Control-Allow-Headers: Content-Type, X-Requested-With
+  X-Content-Type-Options: nosniff
